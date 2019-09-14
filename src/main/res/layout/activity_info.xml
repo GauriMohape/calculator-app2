@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcal"
+    tools:context=".info">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="41dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="397dp"
+        android:layout_height="711dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="-------------------------------------------
+
+                   1)Addition (often signified by the plus symbol +) is one of the four
+basic operations of arithmetic the others are subtraction, multiplication and division.
+The addition of two whole numbers is the total amount of those values combined.
+---------------------------------------------
+2)Sometimes, when you are subtracting large numbers, the top digit in a column is smaller than the bottom digit in that column. In that case, you need to borrow from the next column to the left. Borrowing is a two-step process:
+Subtract 1 from the top number in the column directly to the left.
+
+Cross out the number you’re borrowing from, subtract 1, and write the answer above the number you crossed out.
+For example, suppose you want to subtract 386 – 94. The first step is to subtract 4 from 6 in the ones column, which gives you 2:
+386-94=2
+-------------------------------------------------
+3)To divide decimal numbers:
+
+If the divisor is not a whole number, move decimal point to right to make it a whole number and move decimal point in dividend the same number of places.
+
+Divide as usual. Keep dividing until the answer terminates or repeats.
+
+Put decimal point directly above decimal point in the dividend.
+
+Check your answer. Multiply quotient by divisor.
+----------------------------------------------
+4)When writing, the common sign for multiplication is ‘×’.
+When you ‘multiply’ or ‘times’ a number you add it to itself a number of times, for example 3 multiplied by 3 is the same as saying 3 + 3 + 3 = 9.  Multiplication however is a quicker way of adding the same number many times 3 × 3 =9
+"
+        android:textColor="#FF11194E"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
